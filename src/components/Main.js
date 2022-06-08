@@ -4,8 +4,8 @@ import backgroundImg from '../background.png';
 
 export default function Main({ animals }) {
   return (
-    <div style={{ backgroundImage: `url(${backgroundImg})` }}>
+    <main style={{ backgroundImage: `url(${backgroundImg})` }}>
       < AnimalList animals={animals}/>
-    </div>
+    </main>
   );
 }
