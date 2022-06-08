@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function AnimalCard({ name, type, says, top, left }) {
+export default function AnimalCard({ name, type, says, }) {
   return (
     <div className='animal'>
       <p>{name}</p>
