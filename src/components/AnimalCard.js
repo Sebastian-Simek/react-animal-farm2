@@ -1,7 +1,11 @@
 import React from 'react';
 
-export default function AnimalCard() {
+export default function AnimalCard({ name, type, says }) {
   return (
-    <div>AnimalCard</div>
+    <div>
+      <p>{name}</p>
+      <p>{type}</p>
+      <p>{says}</p>
+    </div>
   );
 }

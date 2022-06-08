@@ -1,10 +1,11 @@
 import React from 'react';
-import AnimalCard from './AnimalCard';
+import AnimalList from './AnimalList';
+import backgroundImg from '../background.png';
 
-export default function Main(animals) {
+export default function Main({ animals }) {
   return (
-    <div>
-      < AnimalCard animals={animals}/>
+    <div style={{ backgroundImage: `url(${backgroundImg})` }}>
+      < AnimalList animals={animals}/>
     </div>
   );
 }
